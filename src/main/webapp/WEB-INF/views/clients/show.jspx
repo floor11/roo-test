@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps:fr.floor11.test.roo.Client" object="${client}" z="R85Pc/V3jb0HOCJ/1fclhYoXb5Q=">
+        <field:display field="nom" id="s:fr.floor11.test.roo.Client.nom" object="${client}" z="KJkcXKa0s79r4i48o5LUcIyHckA="/>
+        <field:display field="prenom" id="s:fr.floor11.test.roo.Client.prenom" object="${client}" z="A2FhU4xgFO515SS10pYX+VQVoCM="/>
+        <field:display field="numTelephone" id="s:fr.floor11.test.roo.Client.numTelephone" object="${client}" z="w2jgXGpbrB4zU4wl8qSAhmq9QC8="/>
+        <field:display field="numPortable" id="s:fr.floor11.test.roo.Client.numPortable" object="${client}" z="ayw3311ERGouMT/1U95eSFJf+ls="/>
+        <field:display field="email" id="s:fr.floor11.test.roo.Client.email" object="${client}" z="uTFl3WXaXCao10gZZ5kn9fGneHU="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl:fr.floor11.test.roo.Client" items="${clients}" z="R5Pr1dGVmAE46DJxvBJXeSf051w=">
+        <table:table data="${clients}" id="l:fr.floor11.test.roo.Client" path="/clients" z="fmQldKrkatR7nyqDGQKKNKTlQ4s=">
+            <table:column id="c:fr.floor11.test.roo.Client.nom" property="nom" z="s5kMHN64eKFC4ZAOdAnYX3lyn4o="/>
+            <table:column id="c:fr.floor11.test.roo.Client.prenom" property="prenom" z="6/KYzVPJYOPi1CHHd9JnDtAtl80="/>
+            <table:column id="c:fr.floor11.test.roo.Client.numTelephone" property="numTelephone" z="uD0R9ux8majuM3QwxD5/3JzoMAU="/>
+            <table:column id="c:fr.floor11.test.roo.Client.numPortable" property="numPortable" z="PGzzLrk253mDhAgmoj1TFPrMeJI="/>
+            <table:column id="c:fr.floor11.test.roo.Client.email" property="email" z="0ZgqGnEtmo4O1uMuhtrqNElEkEo="/>
+        </table:table>
+    </page:list>
+</div>

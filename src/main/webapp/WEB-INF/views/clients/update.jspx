@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu:fr.floor11.test.roo.Client" modelAttribute="client" path="/clients" z="i4EefV7jA0wKMIjXcQv7FqlteU8=">
+        <field:input field="nom" id="c:fr.floor11.test.roo.Client.nom" required="true" z="4BQCEtkFVnv6Uo0b/36IhbYPCoM="/>
+        <field:input field="prenom" id="c:fr.floor11.test.roo.Client.prenom" required="true" z="U9Lp+QwRczipdqpP5IJIAsyx22g="/>
+        <field:input field="numTelephone" id="c:fr.floor11.test.roo.Client.numTelephone" required="true" z="K6X/yMz/HNTRZlw0bj89TyXfmmc="/>
+        <field:input field="numPortable" id="c:fr.floor11.test.roo.Client.numPortable" required="true" z="GkW9VV3pLf5e1dBXUP8R3kD8d+g="/>
+        <field:input field="email" id="c:fr.floor11.test.roo.Client.email" required="true" validationMessageCode="field.invalid.email" z="AzLLkVzrU6SZfy+k18LpF1+yMxs="/>
+    </form:update>
+</div>
